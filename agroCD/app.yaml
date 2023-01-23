@@ -6,14 +6,14 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/marcel-dempers/docker-development-youtube-series.git
+    repoURL: https://github.com/imran21/argoCD-Demo.git
     targetRevision: HEAD
-    path: argo/example-app
+    path: argo/k8s-app
     directory:
       recurse: true
   destination:
     server: https://kubernetes.default.svc
-    namespace: example-app
+    namespace: default
   syncPolicy:
     automated:
       prune: false
