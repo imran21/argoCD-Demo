@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: req-b-pod
+  labels:
+    "app": "req-b"
+spec:
+  containers:
+  - name: req-b
+    image: 120763833592.dkr.ecr.us-west-2.amazonaws.com/req-b:latest
+

@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: req-a-pod
+  labels:
+    "app": "req-a"
+spec:
+  containers:
+  - name: req-a
+    image: 120763833592.dkr.ecr.us-west-2.amazonaws.com/req-a:v5
+
