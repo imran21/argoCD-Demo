@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/imran21/argoCD-Demo.git
     targetRevision: HEAD
-    path: argoCD-Demo/k8s-app
+    path: argoCD-Demo
     directory:
       recurse: true
   destination:
